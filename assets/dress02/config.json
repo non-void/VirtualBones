@@ -1,0 +1,11 @@
+{
+    "ssdrlbs_root_dir": "assets/dress02/SSDR",
+    "ssdrlbs_net_path": "assets/dress02/checkpoints/SSDR.pth.tar",
+    "detail_net_path": "assets/dress02/checkpoints/SSDRRES.pth.tar",
+    "state_path": "assets/dress02/state.npz",
+    "obj_template_path": "assets/dress02/garment.obj",
+    "gru_dim": 600,
+    "gru_out_dim": 10,
+    "joint_list": [1, 2, 4, 5, 7, 8, 10, 11, 13, 14, 16, 17, 18, 19, 0, 3, 6, 9, 12, 15],
+    "ssdrlbs_bone_num": 80
+}
