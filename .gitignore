@@ -1,0 +1,4 @@
+run2.py
+*.obj
+.idea
+*/__pycache__/
