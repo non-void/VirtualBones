@@ -30,7 +30,7 @@ and **psbody**, you can install it following the instructions on `https://github
 
 #### Motion Network
 
-Check out the `run_motionnet.py` to run a single motion network, you can change the garment, animation sequence or other changes by modifying line 138-141:
+Check out the `run_motionnet.py` to run a single motion network, you can change the garment, animation sequence or other configs by modifying line 138-141:
 
 ```python
     config_path = "assets/dress03/config.json"
