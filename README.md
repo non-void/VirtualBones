@@ -40,3 +40,7 @@ configs by modifying line 138-141:
     out_path = "out"
     device = "cpu"
 ```
+
+## Dataset
+
+https://github.com/sig22virtualbones/VirtualBonesDataset
