@@ -135,9 +135,9 @@ def get_results(config_path, anim_path, out_path, device="cpu"):
 
 
 if __name__ == "__main__":
-    config_path = "assets/dress03/config.json"
-    anim_path = "anim/anim3.npz"
+    config_path = "assets/dress02/config.json"
+    anim_path = "anim/anim1.npz"
     out_path = "out"
-    device = "cpu"
+    device = "cuda:0"
 
     get_results(config_path, anim_path, out_path, device)
