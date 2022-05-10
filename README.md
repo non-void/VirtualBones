@@ -34,7 +34,7 @@ and **psbody**, you can install it following the instructions on `https://github
 #### Motion Network
 
 Check out the `run_motionnet.py` to run a single motion network, you can change the garment, animation sequence or other
-configs by modifying line 138-141:
+configs by modifying lines 138-141:
 
 ```python
     config_path = "assets/dress03/config.json"
@@ -42,6 +42,24 @@ configs by modifying line 138-141:
     out_path = "out"
     device = "cpu"
 ```
+
+#### Simulation Parameter Variations
+
+Check out the `run_sim_param_variation.py` to run a single motion network, you can change the garment, animation sequence or other
+configs by modifying lines 209-213:
+
+```python
+    config_path = "assets/dress02_sim_params/config.json"
+    anim_path = "anim/anim1.npz"
+    out_path = "out"
+    device = "cuda:0"
+    sim_param = np.array([-8.066074945242537, 0.5042348713899382, 0.07167780009477188])
+```
+
+Please download the models from [[this link](https://drive.google.com/drive/folders/1VLaAlMne_ulEJpqSmjdqAD7yh8p5mk_7?usp=sharing)] and place the corresponding folder into the assets folder.
+
+For the `sim_param` array, the three values correspond to bending stiffness, time scale and density respectively.
+
 
 ## Dataset
 
