@@ -2,6 +2,8 @@
 
 ![Teaser](assets/img/teaser.jpg "Teaser image")
 
+[[Project website](http://www.cad.zju.edu.cn/home/jin/SigCloth2022/SigCloth2022.htm)][[arXiv](https://arxiv.org/abs/2205.01355)]
+
 ## Abstract
 
 > We present a learning algorithm that uses bone-driven motion networks to predict the deformation of loose-fitting garment meshes at interactive rates. Given a garment, we generate a simulation database and extract virtual bones from simulated mesh sequences using skin decomposition. At runtime, we separately compute the low- and high-frequency deformations in a sequential manner. The low-frequency deformations are predicted by transferring body motions to virtual bones' motions, and the high-frequency deformations are estimated leveraging the global information of virtual bones' motions and local information extracted from low-frequency meshes. In addition, our method can estimate garment deformations caused by variations of the simulation parameters (e.g., fabric's bending stiffness) using an RBF kernel ensembling trained networks for different sets of simulation parameters. Through extensive comparisons, we show that our method outperforms state-of-the-art methods in terms of prediction accuracy of mesh deformations by about 20% in RMSE and 10% in Hausdorff distance and STED.
@@ -42,5 +44,9 @@ configs by modifying line 138-141:
 ```
 
 ## Dataset
+
+https://drive.google.com/drive/folders/1QOczIuWbKdj4lgpxifuj-C7d7bdoAXk8?usp=sharing
+
+or
 
 https://github.com/sig22virtualbones/VirtualBonesDataset
